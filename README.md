@@ -1,1 +1,2 @@
 # odin-recipes
+This project will tie together all the information I have learned so far. using Html, i have learned how to structure a website, using paragraphs and Headers, also using ordered and unorderd lists. I will use these tools as a fundamental buildng block to create a website that makes and stores recipes.
