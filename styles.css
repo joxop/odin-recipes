@@ -1,0 +1,50 @@
+*{
+    background-color: antiquewhite;
+}
+
+.mainimg{
+    width: 500px;
+    height: auto;
+}
+
+.mlink{
+    color: rgb(46, 22, 22);
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(191, 248, 255);
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: monospace;
+    color: forestgreen;
+}
+
+p{
+    color: red;
+}
+
+.dry{
+    color: blue;
+}
+
+.dryer{
+    color: green;
+}
+
+li{
+    color: red;
+    font-weight: bold
+}
+
+.mainlst{
+
+}
+
+.greeting{
+border: 2px solid blue;
+display: flex;
+justify-content: center;
+
+}
