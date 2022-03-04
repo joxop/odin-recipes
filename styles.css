@@ -1,9 +1,9 @@
 *{
     background-color: antiquewhite;
+
 }
 .container{
     height: 100vh;
-    /* border: 5px solid black; */
   
 }
 
@@ -39,14 +39,14 @@ p{
 }
 
 li{
-    color: red;
+    color: blackr;
     font-weight: bold
 }
 
 .mainList{
 margin: 0 auto;
 text-align: center;
-/* border: 2px solid blue; */
+/* border: 2px solid red; */
 padding: 0px;    
 }
 
@@ -60,8 +60,10 @@ h1:hover{
 
 .bodyBox{
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    /* border: 2px solid greenyellow; */
+
 }
 
 
@@ -72,7 +74,6 @@ h1:hover{
 }
 
 ul{
-    list-style-type: none;
 }
 
 .mainImg{
@@ -84,32 +85,31 @@ ul{
 
 .mainImg:hover{
     background-image: linear-gradient(rgba(20, 20, 20, 0.527),rgba(37, 36, 36, 0.5)) ;
-    filter:blur(1px);
-    /* filter:opacity(70%); */
+    /* filter:blur(5px); */
+    filter:opacity(70%);
 }
 
 .images{
     display: flex;
-    justify-content: center-between;
-    /* border: 2px solid blue; */
-    padding: 5px;
+    justify-content: center;
     text-align: center;
 
 }
 
 #git{
     width: 100%;
-    max-width: 100px;
+    max-width: 64px;
     length: auto;
 
 }
 
 #git:hover{
-    background-color:rgba(224, 56, 70, 0.949);
+    background-color:rgb(237, 8, 27);
     border-radius: 90px;
-    /* filter:none; */
-   
-
-
+    filter:blur(5px);
     
+}
+.temp{
+    list-style-type: none;
+
 }

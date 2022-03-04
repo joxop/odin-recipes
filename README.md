@@ -1,2 +1,2 @@
 # odin-recipes
-This project builds a simple website using Html and Css.
+This project builds a simple website only using Html and CSS.
