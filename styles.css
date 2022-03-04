@@ -48,3 +48,8 @@ display: flex;
 justify-content: center;
 
 }
+
+.bdy{
+    margin: 0 auto;
+    border: 5px solid black;
+}
