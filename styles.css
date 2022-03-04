@@ -1,24 +1,29 @@
 *{
     background-color: antiquewhite;
 }
-
-.mainimg{
-    width: 500px;
-    height: auto;
+.container{
+    height: 100vh;
+    /* border: 5px solid black; */
+  
 }
 
-.mlink{
+.links{
     color: rgb(46, 22, 22);
     font-size: 24px;
     text-align: center;
-    background-color: rgb(191, 248, 255);
+    text-decoration: none;
+}
+.links:hover{
+background-color: white;
+color:white;
+background-color: rgba(37, 36, 36, 0.5);
 }
 
 h1{
     font-size: 32px;
     font-weight: bold;
     font-family: monospace;
-    color: forestgreen;
+    color: peachpuff;
 }
 
 p{
@@ -38,18 +43,73 @@ li{
     font-weight: bold
 }
 
-.mainlst{
-
+.mainList{
+margin: 0 auto;
+text-align: center;
+/* border: 2px solid blue; */
+padding: 0px;    
 }
 
 .greeting{
-border: 2px solid blue;
-display: flex;
-justify-content: center;
+text-align:center;
+
+}
+h1:hover{
+    color: white;
+}
+
+.bodyBox{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.ftext{
+    text-align: center;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.mainImg{
+    width: 350px;
+    height: auto;
+    padding: 10px;
+  
+}
+
+.mainImg:hover{
+    background-image: linear-gradient(rgba(20, 20, 20, 0.527),rgba(37, 36, 36, 0.5)) ;
+    filter:blur(1px);
+    /* filter:opacity(70%); */
+}
+
+.images{
+    display: flex;
+    justify-content: center-between;
+    /* border: 2px solid blue; */
+    padding: 5px;
+    text-align: center;
 
 }
 
-.bdy{
-    margin: 0 auto;
-    border: 5px solid black;
+#git{
+    width: 100%;
+    max-width: 100px;
+    length: auto;
+
+}
+
+#git:hover{
+    background-color:rgba(224, 56, 70, 0.949);
+    border-radius: 90px;
+    /* filter:none; */
+   
+
+
+    
 }
