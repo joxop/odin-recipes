@@ -23,7 +23,7 @@ h1{
     font-size: 32px;
     font-weight: bold;
     font-family: monospace;
-    color: peachpuff;
+    color: black;
 }
 
 p{
@@ -54,7 +54,7 @@ padding: 0px;
 text-align:center;
 
 }
-h1:hover{
+.title:hover{
     color: white;
 }
 
@@ -73,8 +73,8 @@ h1:hover{
     color: black;
 }
 
-ul{
-}
+/* ul{
+} */
 
 .mainImg{
     width: 350px;
@@ -99,17 +99,45 @@ ul{
 #git{
     width: 100%;
     max-width: 64px;
-    length: auto;
+    height: auto;
 
 }
 
 #git:hover{
     background-color:rgb(237, 8, 27);
     border-radius: 90px;
-    filter:blur(5px);
+    filter:blur(2px);
     
 }
 .temp{
     list-style-type: none;
 
+}
+
+.header{
+    text-align: center;
+}
+
+#images{
+width: 100%;
+max-width:800px;
+length: auto;
+
+
+}
+
+.description{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    border-bottom: 1px solid black;
+}
+
+.imgHolder{
+    min-width:250px;
+    length: auto;
+    width: 850px;
+    margin-center: auto;
+    
 }
