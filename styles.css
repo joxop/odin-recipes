@@ -1,5 +1,7 @@
 *{
     background-color: antiquewhite;
+     display: flex;
+    justify-content: center-between;
 }
 .container{
     height: 100vh;
