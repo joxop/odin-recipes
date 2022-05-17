@@ -1,10 +1,10 @@
 *{
     background-color: antiquewhite;
-    
 }
 .container{
     height: 100vh;
-     
+    /* border: 5px solid black; */
+  
 }
 
 .links{
@@ -23,7 +23,7 @@ h1{
     font-size: 32px;
     font-weight: bold;
     font-family: monospace;
-    color: black;
+    color: peachpuff;
 }
 
 p{
@@ -39,14 +39,14 @@ p{
 }
 
 li{
-    color: blackr;
+    color: red;
     font-weight: bold
 }
 
 .mainList{
 margin: 0 auto;
 text-align: center;
-/* border: 2px solid red; */
+/* border: 2px solid blue; */
 padding: 0px;    
 }
 
@@ -54,16 +54,14 @@ padding: 0px;
 text-align:center;
 
 }
-.title:hover{
+h1:hover{
     color: white;
 }
 
 .bodyBox{
     margin: 0 auto;
-    /* display: flex;
-    justify-content: center; */
-    /* border: 2px solid greenyellow; */
-
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -73,8 +71,9 @@ text-align:center;
     color: black;
 }
 
-/* ul{
-} */
+ul{
+    list-style-type: none;
+}
 
 .mainImg{
     width: 350px;
@@ -85,60 +84,32 @@ text-align:center;
 
 .mainImg:hover{
     background-image: linear-gradient(rgba(20, 20, 20, 0.527),rgba(37, 36, 36, 0.5)) ;
-    /* filter:blur(5px); */
-    filter:opacity(70%);
+    filter:blur(1px);
+    /* filter:opacity(70%); */
 }
 
 .images{
     display: flex;
-    justify-content: center;
+    justify-content: center-between;
+    /* border: 2px solid blue; */
+    padding: 5px;
     text-align: center;
 
 }
 
 #git{
     width: 100%;
-    max-width: 64px;
-    height: auto;
+    max-width: 100px;
+    length: auto;
 
 }
 
 #git:hover{
-    background-color:rgb(237, 8, 27);
+    background-color:rgba(224, 56, 70, 0.949);
     border-radius: 90px;
-    filter:blur(2px);
-    
-}
-.temp{
-    list-style-type: none;
-
-}
-
-.header{
-    text-align: center;
-}
-
-#images{
-width: 100%;
-max-width:800px;
-length: auto;
+    /* filter:none; */
+   
 
 
-}
-
-.description{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-    border-bottom: 1px solid black;
-}
-
-.imgHolder{
-    min-width:250px;
-    length: auto;
-    width: 850px;
-    margin-center: auto;
-  
     
 }
